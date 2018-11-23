@@ -1,0 +1,69 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: auto;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #FBEECB;
+}
+.ag {
+  padding-top: 100px;
+  border-radius: 5px;
+}
+.ag-1 {
+  width: 16.66666667%;
+  background-color: #71DAD2;
+}
+.ag-2 {
+  width: 58.33333333%;
+  background-color: #FAE7B3;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.ag-3 {
+  width: 16.66666667%;
+  background-color: #71DAD2;
+}
+.ag-4 {
+  width: 48.57142857%;
+  background-color: #EE9E9C;
+}
+.ag-5 {
+  width: 48.57142857%;
+  background-color: #EE9E9C;
+}
+.ag-6 {
+  width: 31.42857143%;
+  background-color: #F09671;
+}
+.ag-7 {
+  width: 65.71428571%;
+  background-color: #F6D784;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.ag-8 {
+  width: 43.47826087%;
+  background-color: #EE9E9C;
+}
+.ag-9 {
+  width: 43.47826087%;
+  background-color: #EE9E9C;
+}
+.ag-10 {
+  width: 100%;
+  background-color: #EA9FC3;
+}
