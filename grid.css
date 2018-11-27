@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
 }
-.container {
+.grid .container {
   width: 1200px;
   max-width: 100%;
   margin: auto;
@@ -13,41 +13,41 @@ body {
   padding-top: 100px;
   background-color: #fbeecb;
 }
-.ag {
+.grid .container .ag {
   padding-top: 100px;
   border-radius: 5px;
 }
-.ag-1 {
+.grid .container .ag-1 {
   align-self: start;
   background-color: #71DAD2;
 }
-.ag-2 {
+.grid .container .ag-2 {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-column-gap: 25px;
   background-color: #FAE7B3;
 }
-.ag-3 {
+.grid .container .ag-3 {
   align-self: start;
   background-color: #71DAD2;
 }
-.ag-4 {
+.grid .container .ag-4 {
   grid-column-start: 1;
   grid-column-end: 4;
   background-color: #EE9E9C;
 }
-.ag-5 {
+.grid .container .ag-5 {
   grid-column-start: 4;
   grid-column-end: 7;
   background-color: #EE9E9C;
 }
-.ag-6 {
+.grid .container .ag-6 {
   grid-column-start: 1;
   grid-column-end: 3;
   align-self: start;
   background-color: #F09671;
 }
-.ag-7 {
+.grid .container .ag-7 {
   grid-column-start: 3;
   grid-column-end: 7;
   display: grid;
@@ -55,13 +55,13 @@ body {
   grid-column-gap: 50px;
   background-color: #F6D784;
 }
-.ag-8 {
+.grid .container .ag-8 {
   background-color: #EE9E9C;
 }
-.ag-9 {
+.grid .container .ag-9 {
   background-color: #EE9E9C;
 }
-.ag-10 {
+.grid .container .ag-10 {
   grid-column-start: 1;
   grid-column-end: 3;
   background-color: #EA9FC3;
